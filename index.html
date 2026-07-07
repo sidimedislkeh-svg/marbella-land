@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marbella Land — Menu</title>
+  <meta name="description" content="Digital menu — Marbella Land" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+  <style>
+    /* Google Fonts preconnect */
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Cairo:wght@400;600;700&family=Jost:wght@300;400;500;600&display=swap');
+  </style>
+</head>
+<body dir="rtl">
+
+  <!-- ── HERO HEADER ── -->
+  <header class="hero-header">
+    <!-- Background layer -->
+    <div class="hero-bg" id="hero-bg"></div>  
+
+    <!-- Language switcher -->
+    <div class="hero-lang-row">
+      <div class="lang-switcher" role="group" aria-label="Language">
+        <button class="lang-btn" data-lang="en">English</button>
+        <button class="lang-btn" data-lang="fr">Français</button>
+        <button class="lang-btn active" data-lang="ar">العربية</button>
+      </div>
+    </div>
+
+    <!-- Brand content -->
+    <div class="hero-content">
+      <!-- Logo injected by JS from brand.js -->
+      <div id="logo-slot"></div>
+
+      <h1 class="brand-name" data-brand="name">Marbella Land</h1>
+
+      <div class="brand-rule">✦</div>
+
+      <p class="brand-tagline" data-brand="tagline">
+        اللحظة الوحيدة التي تستمتع فيها حقاً... بينما يلهو أطفالك...
+      </p>
+    </div>
+  </header>
+
+  <!-- ── MAIN ── -->
+  <main class="main">
+    <div class="ornament">✦</div>
+
+    <div class="categories-grid" id="categories-grid" role="list">
+      <!-- Rendered by script.js -->
+    </div>
+
+    <div class="ornament" style="margin-top:22px">
+      <span class="footer-brand" data-brand="name">Marbella Land</span>
+    </div>
+  </main>
+
+  <footer class="footer">
+    © <span data-brand="year">2025</span>
+    <span class="footer-brand" data-brand="name">Marbella Land</span>
+  </footer>
+
+  <script src="brand.js"></script>
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

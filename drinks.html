@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marbella Land — Drinks</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+</head>
+<body dir="rtl">
+
+  <header class="inner-header">
+    <div class="inner-header-top">
+      <button class="back-btn" id="back-btn" aria-label="Back">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+          <polyline points="15 18 9 12 15 6"/>
+        </svg>
+        <span class="back-label">العودة</span>
+      </button>
+      <div class="lang-switcher" role="group" aria-label="Language">
+        <button class="lang-btn" data-lang="en">English</button>
+        <button class="lang-btn" data-lang="fr">Français</button>
+        <button class="lang-btn active" data-lang="ar">العربية</button>
+      </div>
+    </div>
+    <p class="page-title" data-i18n="drinks">مشروبات</p>
+    <p class="page-brand" data-brand="name">Marbella Land</p>
+  </header>
+
+  <main class="main">
+    <div class="products-grid" id="products-grid" data-category="drinks" role="list">
+      <!-- Rendered by script.js -->
+    </div>
+  </main>
+
+  <footer class="footer">
+    © <span data-brand="year">2025</span>
+    <span class="footer-brand" data-brand="name">Marbella Land</span>
+  </footer>
+
+  <script src="brand.js"></script>
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

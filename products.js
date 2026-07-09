@@ -252,6 +252,226 @@ const products = [
   }
 },
 
+{
+  id: 39,
+  category: "snacks",
+  image: "double-burger.webp",
+  price: 180,
+
+  ar: {
+    name: "دبل برغر",
+    description: "برغر بلحمتي لحم مع الجبن والصوص."
+  },
+
+  fr: {
+    name: "Double Burger",
+    description: "Deux steaks de bœuf avec fromage et sauce."
+  },
+
+  en: {
+    name: "Double Burger",
+    description: "Double beef burger with cheese and sauce."
+  }
+},
+
+{
+  id: 40,
+  category: "snacks",
+  image: "double-chicken-burger.webp",
+  price: 180,
+
+  ar: {
+    name: "دبل برغر دجاج",
+    description: "برغر بقطعتي دجاج مقرمش مع الجبن والصوص."
+  },
+
+  fr: {
+    name: "Double Chicken Burger",
+    description: "Double filet de poulet croustillant avec fromage et sauce."
+  },
+
+  en: {
+    name: "Double Chicken Burger",
+    description: "Double crispy chicken burger with cheese and sauce."
+  }
+},
+{
+  id: 37,
+  category: "snacks",
+  image: "pain-corne-viande.webp",
+  price: 220,
+
+  ar: {
+    name: "بان كورنيه باللحم",
+    description: "خبز محشو باللحم المشوي والخضار مع الصوص."
+  },
+
+  fr: {
+    name: "Pain Corné Viande",
+    description: "Pain garni de viande grillée, légumes et sauce."
+  },
+
+  en: {
+    name: "Beef Pain Corné",
+    description: "Flatbread filled with grilled beef, vegetables and sauce."
+  }
+},
+
+{
+  id: 38,
+  category: "snacks",
+  image: "pain-corne-poulet.webp",
+  price: 200,
+
+  ar: {
+    name: "بان كورنيه بالدجاج",
+    description: "خبز محشو بالدجاج المشوي والخضار مع الصوص."
+  },
+
+  fr: {
+    name: "Pain Corné Poulet",
+    description: "Pain garni de poulet grillé, légumes et sauce."
+  },
+
+  en: {
+    name: "Chicken Pain Corné",
+    description: "Flatbread filled with grilled chicken, vegetables and sauce."
+  }
+},
+{
+  id: 31,
+  category: "snacks",
+  image: "pizza-fruits-de-mer.webp",
+  price: 250,
+
+  ar: {
+    name: "بيتزا فواكه البحر",
+    description: "بيتزا غنية بالروبيان والكالامار والأخطبوط مع الجبن."
+  },
+
+  fr: {
+    name: "Pizza Fruits de Mer",
+    description: "Pizza garnie de crevettes, calamars, poulpe et fromage."
+  },
+
+  en: {
+    name: "Seafood Pizza",
+    description: "Pizza topped with shrimp, calamari, octopus and cheese."
+  }
+},
+
+{
+  id: 32,
+  category: "snacks",
+  image: "pizza-crevettes.webp",
+  price: 230,
+
+  ar: {
+    name: "بيتزا الروبيان",
+    description: "بيتزا بالروبيان الطازج مع الجبن والفلفل الملون."
+  },
+
+  fr: {
+    name: "Pizza Crevettes",
+    description: "Pizza aux crevettes, fromage et poivrons."
+  },
+
+  en: {
+    name: "Shrimp Pizza",
+    description: "Pizza with shrimp, cheese and bell peppers."
+  }
+},
+
+{
+  id: 33,
+  category: "snacks",
+  image: "pizza-poulet.webp",
+  price: 230,
+
+  ar: {
+    name: "بيتزا الدجاج",
+    description: "بيتزا بالدجاج المشوي مع الجبن والخضار."
+  },
+
+  fr: {
+    name: "Pizza Poulet",
+    description: "Pizza au poulet grillé, fromage et légumes."
+  },
+
+  en: {
+    name: "Chicken Pizza",
+    description: "Pizza with grilled chicken, cheese and vegetables."
+  }
+},
+
+{
+  id: 34,
+  category: "snacks",
+  image: "pizza-viande.webp",
+  price: 250,
+
+  ar: {
+    name: "بيتزا اللحم",
+    description: "بيتزا باللحم المفروم مع الجبن والخضار."
+  },
+
+  fr: {
+    name: "Pizza Viande",
+    description: "Pizza à la viande hachée, fromage et légumes."
+  },
+
+  en: {
+    name: "Meat Pizza",
+    description: "Pizza with minced beef, cheese and vegetables."
+  }
+},
+
+{
+  id: 35,
+  category: "snacks",
+  image: "pizza-margarita.webp",
+  price: 180,
+
+  ar: {
+    name: "بيتزا مارغريتا",
+    description: "بيتزا كلاسيكية بصلصة الطماطم وجبن الموزاريلا."
+  },
+
+  fr: {
+    name: "Pizza Margherita",
+    description: "Pizza classique à la sauce tomate et mozzarella."
+  },
+
+  en: {
+    name: "Margherita Pizza",
+    description: "Classic pizza with tomato sauce and mozzarella cheese."
+  }
+},
+
+{
+  id: 36,
+  category: "snacks",
+  image: "pizza-thon.webp",
+  price: 200,
+
+  ar: {
+    name: "بيتزا التونة",
+    description: "بيتزا بالتونة والجبن والزيتون والفلفل."
+  },
+
+  fr: {
+    name: "Pizza Thon",
+    description: "Pizza au thon, fromage, olives et poivrons."
+  },
+
+  en: {
+    name: "Tuna Pizza",
+    description: "Pizza with tuna, cheese, olives and bell peppers."
+  }
+},
+
+
+
   // ─── DISHES / الأطباق ────────────────────────────────────────────────────────
  // ─── DISHES / الأطباق ───────────────────────────────────────
 
@@ -318,8 +538,314 @@ const products = [
   en: {
     name: "Spaghetti Bolognese",
     description: "Spaghetti served with a rich meat and tomato Bolognese sauce."
+  },
+ 
+  id: 17,
+  category: "dishes",
+  image: "cordon-bleu.webp",
+  price: 350,
+
+  ar: {
+    name: "كوردون بلو",
+    description: "صدر دجاج محشو بالجبن واللحم المدخن، مقرمش من الخارج وطري من الداخل."
+  },
+
+  fr: {
+    name: "Cordon Bleu",
+    description: "Escalope de poulet farcie au fromage et jambon, croustillante à l'extérieur et fondante à l'intérieur."
+  },
+
+  en: {
+    name: "Cordon Bleu",
+    description: "Chicken breast stuffed with cheese and ham, crispy outside and tender inside."
   }
 },
+
+{
+  id: 18,
+  category: "dishes",
+  image: "brochette-poulet.webp",
+  price: 350,
+
+  ar: {
+    name: "أسياخ دجاج",
+    description: "أسياخ دجاج مشوية ومتّبلة، تقدم بنكهة غنية ولمسة طازجة."
+  },
+
+  fr: {
+    name: "Brochette de Poulet",
+    description: "Brochettes de poulet grillées et marinées, servies avec une touche fraîche."
+  },
+
+  en: {
+    name: "Chicken Skewers",
+    description: "Grilled marinated chicken skewers served with a fresh touch."
+  }
+},
+
+{
+  id: 19,
+  category: "dishes",
+  image: "emince-poulet-creme-champignon.webp",
+  price: 400,
+
+  ar: {
+    name: "إمينسي دجاج بالكريمة والفطر",
+    description: "شرائح دجاج طرية مطهوة بصلصة كريمة الفطر الغنية."
+  },
+
+  fr: {
+    name: "Émincé de Poulet à la Crème Champignon",
+    description: "Émincé de poulet tendre dans une sauce crémeuse aux champignons."
+  },
+
+  en: {
+    name: "Creamy Mushroom Chicken",
+    description: "Tender sliced chicken served in a rich creamy mushroom sauce."
+  }
+},
+
+{
+  id: 20,
+  category: "dishes",
+  image: "filet-poisson.webp",
+  price: 400,
+
+  ar: {
+    name: "فيليه سمك",
+    description: "فيليه سمك مشوي يقدم بنكهة خفيفة مع الليمون والخضار."
+  },
+
+  fr: {
+    name: "Filet de Poisson",
+    description: "Filet de poisson grillé, servi avec une touche de citron et des légumes."
+  },
+
+  en: {
+    name: "Fish Fillet",
+    description: "Grilled fish fillet served with lemon and vegetables."
+  }
+},
+
+{
+  id: 21,
+  category: "dishes",
+  image: "plat-crevette.webp",
+  price: 450,
+
+  ar: {
+    name: "طبق روبيان",
+    description: "روبيان مطهو بتتبيلة لذيذة مع الليمون والأعشاب."
+  },
+
+  fr: {
+    name: "Plat Crevette",
+    description: "Crevettes savoureuses préparées avec citron, herbes et assaisonnement."
+  },
+
+  en: {
+    name: "Shrimp Plate",
+    description: "Flavorful shrimp prepared with lemon, herbs and seasoning."
+  }
+},
+
+{
+  id: 22,
+  category: "dishes",
+  image: "salade-mixte.webp",
+  price: 300,
+
+  ar: {
+    name: "سلطة مشكلة",
+    description: "سلطة طازجة مشكلة بالخضار، البيض، التونة والزيتون."
+  },
+
+  fr: {
+    name: "Salade Mixte",
+    description: "Salade fraîche composée de légumes, œufs, thon et olives."
+  },
+
+  en: {
+    name: "Mixed Salad",
+    description: "Fresh mixed salad with vegetables, eggs, tuna and olives."
+  }
+},
+{
+  id: 23,
+  category: "dishes",
+  image: "poisson-grille.webp",
+  price: 500,
+
+  ar: {
+    name: "سمك مشوي",
+    description: "سمك مشوي بتتبيلة خفيفة، يقدم مع الليمون والخضار المشوية."
+  },
+
+  fr: {
+    name: "Poisson Grillé",
+    description: "Poisson grillé avec une marinade légère, servi avec citron et légumes grillés."
+  },
+
+  en: {
+    name: "Grilled Fish",
+    description: "Grilled fish with a light marinade, served with lemon and grilled vegetables."
+  }
+},
+
+{
+  id: 24,
+  category: "dishes",
+  image: "plat-pecheur.webp",
+  price: 650,
+
+  ar: {
+    name: "طبق الصياد",
+    description: "تشكيلة بحرية غنية من السمك والروبيان والكالامار وبلح البحر."
+  },
+
+  fr: {
+    name: "Plat Pêcheur",
+    description: "Assortiment de fruits de mer avec poisson, crevettes, calamars et moules."
+  },
+
+  en: {
+    name: "Fisherman's Plate",
+    description: "Rich seafood platter with fish, shrimp, calamari and mussels."
+  }
+},
+
+{
+  id: 25,
+  category: "dishes",
+  image: "salade-fruits-de-mer.webp",
+  price: 450,
+
+  ar: {
+    name: "سلطة فواكه البحر",
+    description: "سلطة طازجة مع تشكيلة من فواكه البحر والخضار."
+  },
+
+  fr: {
+    name: "Salade Fruits de Mer",
+    description: "Salade fraîche garnie d'un assortiment de fruits de mer et légumes."
+  },
+
+  en: {
+    name: "Seafood Salad",
+    description: "Fresh salad topped with assorted seafood and vegetables."
+  }
+},
+
+{
+  id: 26,
+  category: "dishes",
+  image: "spaghetti-fruit-de-mer.webp",
+  price: 450,
+
+  ar: {
+    name: "سباغيتي فواكه البحر",
+    description: "سباغيتي بصلصة طماطم خفيفة مع الروبيان والكالامار."
+  },
+
+  fr: {
+    name: "Spaghetti Fruits de Mer",
+    description: "Spaghetti à la sauce tomate légère avec crevettes et calamars."
+  },
+
+  en: {
+    name: "Seafood Spaghetti",
+    description: "Spaghetti with light tomato sauce, shrimp and calamari."
+  }
+},
+
+{
+  id: 27,
+  category: "dishes",
+  image: "carbonara-fruit-de-mer.webp",
+  price: 480,
+
+  ar: {
+    name: "كاربونارا فواكه البحر",
+    description: "باستا كريمية مع تشكيلة من فواكه البحر وجبن مبشور."
+  },
+
+  fr: {
+    name: "Carbonara Fruits de Mer",
+    description: "Pâtes crémeuses aux fruits de mer avec fromage râpé."
+  },
+
+  en: {
+    name: "Seafood Carbonara",
+    description: "Creamy pasta with assorted seafood and grated cheese."
+  }
+},
+
+{
+  id: 28,
+  category: "dishes",
+  image: "carbonara-poulet.webp",
+  price: 430,
+
+  ar: {
+    name: "كاربونارا دجاج",
+    description: "باستا كريمية مع قطع دجاج طرية وجبن مبشور."
+  },
+
+  fr: {
+    name: "Carbonara Poulet",
+    description: "Pâtes crémeuses avec morceaux de poulet tendre et fromage râpé."
+  },
+
+  en: {
+    name: "Chicken Carbonara",
+    description: "Creamy pasta with tender chicken pieces and grated cheese."
+  }
+},
+
+{
+  id: 29,
+  category: "dishes",
+  image: "calamar-pane.webp",
+  price: 490,
+
+  ar: {
+    name: "طبق كالامار بانيه",
+    description: "حلقات كالامار مقرمشة تقدم مع صلصة كريمية وليمون."
+  },
+
+  fr: {
+    name: "Plat Calamar Pané",
+    description: "Anneaux de calamar croustillants servis avec sauce crémeuse et citron."
+  },
+
+  en: {
+    name: "Breaded Calamari Plate",
+    description: "Crispy calamari rings served with creamy sauce and lemon."
+  }
+},
+
+{
+  id: 30,
+  category: "dishes",
+  image: "crevettes-pane.webp",
+  price: 500,
+
+  ar: {
+    name: "طبق روبيان بانيه",
+    description: "روبيان مقرمش يقدم مع صلصة كريمية وليمون."
+  },
+
+  fr: {
+    name: "Plat Crevettes Panées",
+    description: "Crevettes croustillantes servies avec sauce crémeuse et citron."
+  },
+
+  en: {
+    name: "Breaded Shrimp Plate",
+    description: "Crispy breaded shrimp served with creamy sauce and lemon."
+  }
+},
+
 
   // ─── DESSERTS / تحلية ────────────────────────────────────────────────────────
 // ─── DESSERTS / التحلية ─────────────────────────────────────
@@ -391,27 +917,31 @@ const products = [
 },
 
   // ─── BREAKFAST / فطور صباح ────────────────────────────────────────────────────
-  {
-    id: 13,
-    category: "breakfast",
-    image: "full-breakfast.webp",
-    price: 70,
-    ar: { name: "فطور كامل", description: "بيض مقلي، خبز مشوي، جبن، زيتون وعصير برتقال" },
-    fr: { name: "Petit déjeuner complet", description: "Œufs frits, pain grillé, fromage, olives et jus d'orange" },
-    en: { name: "Full Breakfast", description: "Fried eggs, toast, cheese, olives and orange juice" }
-  },
+
  
 
-  // ─── games / شيشة ───────────────────────────────────────────────────────────
-  {
-    id: 16,
-    category: "games",
-    image: "shisha-mint.webp",
-    price: 80,
-    ar: { name: "شيشة نعناع", description: "شيشة فاخرة بنكهة النعناع المنعش" },
-    fr: { name: "Chicha menthe", description: "Chicha premium à la menthe fraîche et rafraîchissante" },
-    en: { name: "Mint Shisha", description: "Premium shisha with fresh and refreshing mint flavor" }
+  // ─── games / ألعاب ───────────────────────────────────────────────────────────
+ {
+  id: 16,
+  category: "games",
+  image: "games.webp",
+  price: 200,
+
+  ar: {
+    name: "منطقة ألعاب الأطفال",
+    description: "200 أوقية للطفل"
   },
+
+  fr: {
+    name: "Parc de jeux pour enfants",
+    description: "200 MRU par enfant"
+  },
+
+  en: {
+    name: "Kids Play Area",
+    description: "200 MRU per child"
+  }
+},
  
 
 ];

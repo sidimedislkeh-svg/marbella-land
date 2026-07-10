@@ -72,6 +72,71 @@ const products = [
     description: "Strong Italian-style espresso with a rich, bold flavor."
   }
 },
+{
+  id: 58,
+  category: "drinks",
+  image: "cappuccino.webp",
+  price: 100,
+
+  ar: {
+    name: "قهوة كابتشينو",
+    description: "قهوة كابتشينو كريمية برغوة حليب ناعمة."
+  },
+
+  fr: {
+    name: "Cappuccino",
+    description: "Cappuccino crémeux avec une mousse de lait onctueuse."
+  },
+
+  en: {
+    name: "Cappuccino",
+    description: "Creamy cappuccino with smooth milk foam."
+  }
+},
+
+{
+  id: 59,
+  category: "drinks",
+  image: "cappuccino-choice.webp",
+  price: 120,
+
+  ar: {
+    name: "كابتشينو بالنكهات",
+    description: "براونيز، كوكيز، بندق أو شوكولاتة."
+  },
+
+  fr: {
+    name: "Cappuccino au choix",
+    description: "Brownies, Cookies, Noisettes ou Chocolat."
+  },
+
+  en: {
+    name: "Flavored Cappuccino",
+    description: "Brownies, Cookies, Hazelnut or Chocolate."
+  }
+},
+
+{
+  id: 60,
+  category: "drinks",
+  image: "iced-coffee-choice.webp",
+  price: 130,
+
+  ar: {
+    name: "قهوة مثلجة بالنكهات",
+    description: "فانيلا، كراميل، كوكيز أو شوكولاتة."
+  },
+
+  fr: {
+    name: "Café glacé au choix",
+    description: "Vanille, Caramel, Cookies ou Chocolat."
+  },
+
+  en: {
+    name: "Flavored Iced Coffee",
+    description: "Vanilla, Caramel, Cookies or Chocolate."
+  }
+},
 
 {
   id: 3,
@@ -136,6 +201,332 @@ const products = [
   en: {
     name: "Lipton Tea",
     description: "Classic hot Lipton tea with a smooth refreshing taste."
+  }
+},
+{
+  id: 61,
+  category: "drinks",
+  image: "lipton-tea-milk.webp",
+  price: 80,
+
+  ar: {
+    name: "شاي ليبتون بالحليب",
+    description: "شاي ليبتون ساخن محضر بالحليب."
+  },
+
+  fr: {
+    name: "Thé Lipton au lait",
+    description: "Thé Lipton chaud préparé avec du lait."
+  },
+
+  en: {
+    name: "Lipton Tea with Milk",
+    description: "Hot Lipton tea prepared with milk."
+  }
+},
+
+{
+  id: 62,
+  category: "drinks",
+  image: "iced-tea.webp",
+  price: 100,
+
+  ar: {
+    name: "شاي مثلج",
+    description: "شاي بارد منعش يقدم مع الثلج."
+  },
+
+  fr: {
+    name: "Thé glacé",
+    description: "Thé froid rafraîchissant servi avec des glaçons."
+  },
+
+  en: {
+    name: "Iced Tea",
+    description: "Refreshing iced tea served over ice."
+  }
+},
+
+{
+  id: 45,
+  category: "drinks",
+  image: "cocktail-fruits.webp",
+  price: 150,
+
+  ar: {
+    name: "كوكتيل فواكه",
+    description: "مزيج منعش من الفواكه الطازجة."
+  },
+
+  fr: {
+    name: "Cocktail Fruits",
+    description: "Mélange rafraîchissant de fruits frais."
+  },
+
+  en: {
+    name: "Fruit Cocktail",
+    description: "Refreshing blend of fresh fruits."
+  }
+},
+
+{
+  id: 46,
+  category: "drinks",
+  image: "cocktail-exotique.webp",
+  price: 150,
+
+  ar: {
+    name: "كوكتيل استوائي",
+    description: "كوكتيل من الفواكه الاستوائية المنعشة."
+  },
+
+  fr: {
+    name: "Cocktail Exotique",
+    description: "Cocktail rafraîchissant aux fruits exotiques."
+  },
+
+  en: {
+    name: "Exotic Cocktail",
+    description: "Refreshing tropical fruit cocktail."
+  }
+},
+
+{
+  id: 47,
+  category: "drinks",
+  image: "cocktail-marbella.webp",
+  price: 200,
+
+  ar: {
+    name: "كوكتيل ماربيلا",
+    description: "المشروب الخاص بالمقهى."
+  },
+
+  fr: {
+    name: "Cocktail Marbella",
+    description: "Le cocktail signature de la maison."
+  },
+
+  en: {
+    name: "Marbella Cocktail",
+    description: "The house signature cocktail."
+  }
+},
+
+{
+  id: 48,
+  category: "drinks",
+  image: "cocktail-banana.webp",
+  price: 150,
+
+  ar: {
+    name: "كوكتيل موز",
+    description: "كوكتيل موز كريمي ومنعش."
+  },
+
+  fr: {
+    name: "Cocktail Banane",
+    description: "Cocktail crémeux à la banane."
+  },
+
+  en: {
+    name: "Banana Cocktail",
+    description: "Creamy and refreshing banana cocktail."
+  }
+},
+{
+  id: 49,
+  category: "drinks",
+  image: "jus-avocat.webp",
+  price: 150,
+
+  ar: {
+    name: "عصير أفوكادو",
+    description: "عصير أفوكادو كريمي وطازج."
+  },
+
+  fr: {
+    name: "Jus d'Avocat",
+    description: "Jus d'avocat frais et onctueux."
+  },
+
+  en: {
+    name: "Avocado Juice",
+    description: "Fresh and creamy avocado juice."
+  }
+},
+
+{
+  id: 50,
+  category: "drinks",
+  image: "mojito-au-choix.webp",
+  price: 150,
+
+  ar: {
+    name: "موهيتو حسب الاختيار",
+    description: "يتوفر بعدة نكهات حسب الاختيار."
+  },
+
+  fr: {
+    name: "Mojito au Choix",
+    description: "Disponible en plusieurs saveurs au choix."
+  },
+
+  en: {
+    name: "Mojito of Your Choice",
+    description: "Available in different flavors of your choice."
+  }
+},
+
+{
+  id: 51,
+  category: "drinks",
+  image: "jus-mangue.webp",
+  price: 150,
+
+  ar: {
+    name: "عصير مانجو",
+    description: "عصير مانجو طبيعي ومنعش."
+  },
+
+  fr: {
+    name: "Jus de Mangue",
+    description: "Jus de mangue frais et rafraîchissant."
+  },
+
+  en: {
+    name: "Mango Juice",
+    description: "Fresh and refreshing mango juice."
+  }
+},
+
+{
+  id: 52,
+  category: "drinks",
+  image: "jus-citron-menthe.webp",
+  price: 150,
+
+  ar: {
+    name: "عصير ليمون بالنعناع",
+    description: "ليمون طازج مع النعناع المنعش."
+  },
+
+  fr: {
+    name: "Jus de Citron et Menthe",
+    description: "Citron frais accompagné de menthe."
+  },
+
+  en: {
+    name: "Lemon Mint Juice",
+    description: "Fresh lemon juice with mint."
+  }
+},
+
+{
+  id: 53,
+  category: "drinks",
+  image: "jus-citron.webp",
+  price: 150,
+
+  ar: {
+    name: "عصير ليمون",
+    description: "عصير ليمون طبيعي ومنعش."
+  },
+
+  fr: {
+    name: "Jus de Citron",
+    description: "Jus de citron frais et rafraîchissant."
+  },
+
+  en: {
+    name: "Lemon Juice",
+    description: "Fresh and refreshing lemon juice."
+  }
+},
+{
+  id: 42,
+  category: "drinks",
+  image: "jus-fraise.webp",
+  price: 150,
+
+  ar: {
+    name: "عصير فراولة",
+    description: "عصير فراولة طبيعي ومنعش."
+  },
+
+  fr: {
+    name: "Jus de Fraise",
+    description: "Jus de fraise frais et rafraîchissant."
+  },
+
+  en: {
+    name: "Strawberry Juice",
+    description: "Fresh and refreshing strawberry juice."
+  }
+},
+
+{
+  id: 43,
+  category: "drinks",
+  image: "jus-ananas.webp",
+  price: 150,
+
+  ar: {
+    name: "عصير أناناس",
+    description: "عصير أناناس طبيعي ومنعش."
+  },
+
+  fr: {
+    name: "Jus d'Ananas",
+    description: "Jus d'ananas frais et rafraîchissant."
+  },
+
+  en: {
+    name: "Pineapple Juice",
+    description: "Fresh and refreshing pineapple juice."
+  }
+},
+
+{
+  id: 44,
+  category: "drinks",
+  image: "jus-orange.webp",
+  price: 150,
+
+  ar: {
+    name: "عصير برتقال",
+    description: "عصير برتقال طبيعي ومنعش."
+  },
+
+  fr: {
+    name: "Jus d'Orange",
+    description: "Jus d'orange frais et rafraîchissant."
+  },
+
+  en: {
+    name: "Orange Juice",
+    description: "Fresh and refreshing orange juice."
+  }
+},
+{
+  id: 41,
+  category: "drinks",
+  image: "jus-pomme.webp",
+  price: 150,
+
+  ar: {
+    name: "عصير تفاح",
+    description: "عصير تفاح طبيعي ومنعش."
+  },
+
+  fr: {
+    name: "Jus de Pomme",
+    description: "Jus de pomme frais et rafraîchissant."
+  },
+
+  en: {
+    name: "Apple Juice",
+    description: "Fresh and refreshing apple juice."
   }
 },
 
@@ -339,6 +730,42 @@ const products = [
   }
 },
 {
+  id: 7,
+  category: "snacks",
+  image: "baguette-farcie.webp",
+  price: 230,
+  ar: {
+    name: "باغيت محشوة",
+    description: "متوفرة بالدجاج (230)، اللحم (230)، أو ميكس (280)"
+  },
+  fr: {
+    name: "Baguette Farcie",
+    description: "Disponible au poulet (230), viande (230) ou mixte (280)"
+  },
+  en: {
+    name: "Stuffed Baguette",
+    description: "Available with chicken (230), beef (230) or mixed (280)"
+  }
+},
+{
+  id: 5,
+  category: "snacks",
+  image: "maqloob.webp",
+  price: 220,
+  ar: {
+    name: "مقلوب",
+    description: "متوفر بالدجاج (220)، اللحم (220)، أو ميكس (240)"
+  },
+  fr: {
+    name: "Maqloob",
+    description: "Disponible au poulet (220), viande (220) ou mixte (240)"
+  },
+  en: {
+    name: "Maqloob",
+    description: "Available with chicken (220), beef (220) or mixed (240)"
+  }
+},
+{
   id: 31,
   category: "snacks",
   image: "pizza-fruits-de-mer.webp",
@@ -518,28 +945,7 @@ const products = [
     description: "Marinated grilled chicken fillet served with fries and fresh salad."
   }
 },
-
-{
-  id: 13,
-  category: "dishes",
-  image: "spaghetti-bolognaise.webp",
-  price: 350,
-
-  ar: {
-    name: "سباغيتي بولونيز",
-    description: "سباغيتي بصلصة بولونيز الغنية باللحم والطماطم."
-  },
-
-  fr: {
-    name: "Spaghetti Bolognaise",
-    description: "Spaghetti accompagnés d'une sauce bolognaise riche à la viande et aux tomates."
-  },
-
-  en: {
-    name: "Spaghetti Bolognese",
-    description: "Spaghetti served with a rich meat and tomato Bolognese sauce."
-  },
- 
+ {
   id: 17,
   category: "dishes",
   image: "cordon-bleu.webp",
@@ -801,7 +1207,27 @@ const products = [
     description: "Creamy pasta with tender chicken pieces and grated cheese."
   }
 },
+{
+  id: 13,
+  category: "dishes",
+  image: "spaghetti-bolognaise.webp",
+  price: 350,
 
+  ar: {
+    name: "سباغيتي بولونيز",
+    description: "سباغيتي بصلصة بولونيز الغنية باللحم والطماطم."
+  },
+
+  fr: {
+    name: "Spaghetti Bolognaise",
+    description: "Spaghetti accompagnés d'une sauce bolognaise riche à la viande et aux tomates."
+  },
+
+  en: {
+    name: "Spaghetti Bolognese",
+    description: "Spaghetti served with a rich meat and tomato Bolognese sauce."
+  },
+   },
 {
   id: 29,
   category: "dishes",

@@ -1299,24 +1299,68 @@ const products = [
 },
 
 {
-  id: 15,
+  id: 66,
   category: "desserts",
-  image: "waffle-nutella.webp",
-  price: 150,
+  image: "gauffres-choice.webp",
+  price: 200,
 
   ar: {
-    name: "وافل بالنوتيلا",
-    description: "وافل طازج يقدم مع نوتيلا الغنية."
+    name: "غوفر حسب الاختيار",
+    description: "كيندر، سنيكرز أو فيريرو."
   },
 
   fr: {
-    name: "Gaufre au Nutella",
-    description: "Gaufre fraîche servie avec une généreuse couche de Nutella."
+    name: "Gauffres au choix",
+    description: "Kinder, Snickers ou Ferrero."
   },
 
   en: {
-    name: "Nutella Waffle",
-    description: "Freshly baked waffle topped with rich Nutella."
+    name: "Waffles of Your Choice",
+    description: "Kinder, Snickers or Ferrero."
+  }
+},
+
+{
+  id: 67,
+  category: "desserts",
+  image: "gauffres-marbella.webp",
+  price: 250,
+
+  ar: {
+    name: "غوفر ماربيلا",
+    description: "غوفر خاص بالمطعم مع إضافات مميزة."
+  },
+
+  fr: {
+    name: "Gauffres Marbella",
+    description: "La gaufre signature de la maison avec garnitures spéciales."
+  },
+
+  en: {
+    name: "Marbella Waffles",
+    description: "The house signature waffles with premium toppings."
+  }
+},
+
+{
+  id: 68,
+  category: "desserts",
+  image: "gauffres-nutella.webp",
+  price: 150,
+
+  ar: {
+    name: "غوفر بالنوتيلا",
+    description: "غوفر طازج مغطى بنوتيلا الغنية."
+  },
+
+  fr: {
+    name: "Gauffres Nutella",
+    description: "Gaufres fraîches nappées de Nutella."
+  },
+
+  en: {
+    name: "Nutella Waffles",
+    description: "Fresh waffles topped with rich Nutella."
   }
 },
 
@@ -1341,7 +1385,114 @@ const products = [
     description: "Thin crêpe filled with delicious Nutella."
   }
 },
+{
+  id: 69,
+  category: "desserts",
+  image: "crepe-choice.webp",
+  price: 200,
 
+  ar: {
+    name: "كريب حسب الاختيار",
+    description: "كيندر، سنيكرز أو فيريرو."
+  },
+
+  fr: {
+    name: "Crêpe au choix",
+    description: "Kinder, Snickers ou Ferrero."
+  },
+
+  en: {
+    name: "Crêpe of Your Choice",
+    description: "Kinder, Snickers or Ferrero."
+  }
+},
+
+{
+  id: 70,
+  category: "desserts",
+  image: "crepe-marbella.webp",
+  price: 250,
+
+  ar: {
+    name: "كريب ماربيلا",
+    description: "كريب خاص بالمطعم مع إضافات مميزة."
+  },
+
+  fr: {
+    name: "Crêpe Marbella",
+    description: "La crêpe signature de la maison avec garnitures spéciales."
+  },
+
+  en: {
+    name: "Marbella Crêpe",
+    description: "The house signature crêpe with premium toppings."
+  }
+},
+{
+  id: 63,
+  category: "desserts",
+  image: "waffle-nutella.webp",
+  price: 150,
+
+  ar: {
+    name: "وافل نوتيلا",
+    description: "وافل طازج مغطى بنوتيلا الغنية."
+  },
+
+  fr: {
+    name: "Waffle Nutella",
+    description: "Gaufre fraîche nappée de Nutella."
+  },
+
+  en: {
+    name: "Nutella Waffle",
+    description: "Fresh waffle topped with rich Nutella."
+  }
+},
+
+{
+  id: 64,
+  category: "desserts",
+  image: "waffle-choice.webp",
+  price: 200,
+
+  ar: {
+    name: "وافل حسب الاختيار",
+    description: "كيندر، سنيكرز أو فيريرو."
+  },
+
+  fr: {
+    name: "Waffle au choix",
+    description: "Kinder, Snickers ou Ferrero."
+  },
+
+  en: {
+    name: "Waffle of Your Choice",
+    description: "Kinder, Snickers or Ferrero."
+  }
+},
+
+{
+  id: 65,
+  category: "desserts",
+  image: "waffle-marbella.webp",
+  price: 250,
+
+  ar: {
+    name: "وافل ماربيلا",
+    description: "وافل خاص بالمطعم مع آيس كريم وإضافات مميزة."
+  },
+
+  fr: {
+    name: "Waffle Marbella",
+    description: "La gaufre signature de la maison avec glace et garnitures."
+  },
+
+  en: {
+    name: "Marbella Waffle",
+    description: "The house signature waffle with ice cream and premium toppings."
+  }
+},
   // ─── BREAKFAST / فطور صباح ────────────────────────────────────────────────────
 
  

@@ -924,7 +924,7 @@ const products = [
  {
   id: 16,
   category: "games",
-  image: "games.webp",
+  image: "cover-games.webp",
   price: 200,
 
   ar: {

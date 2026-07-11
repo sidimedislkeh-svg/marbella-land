@@ -74,7 +74,7 @@ const CAT_ICONS = {
 };
 
 // ── State ──────────────────────────────────────────────────
-let currentLang = localStorage.getItem("ml_lang") || "ar";
+let currentLang = "fr";
 
 // ── Boot ───────────────────────────────────────────────────
 document.addEventListener("DOMContentLoaded", () => {
@@ -175,7 +175,7 @@ function monogramHTML() {
 // ── Language ───────────────────────────────────────────────
 function applyLang(lang) {
   currentLang = lang;
-  localStorage.setItem("ml_lang", lang);
+  //localStorage.setItem("ml_lang", lang);
   const config = LANGS[lang] || LANGS.ar;
   document.documentElement.lang = lang;
   document.body.dir = config.dir;

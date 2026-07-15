@@ -705,7 +705,7 @@ const products = [
   id: 40,
   category: "snacks",
   image: "double-chicken-burger.webp",
-  price: 180,
+  price: 200,
 
   ar: {
     name: "دبل برغر دجاج",
@@ -902,7 +902,7 @@ const products = [
   id: 31,
   category: "snacks",
   image: "pizza-fruits-de-mer.webp",
-  price: 250,
+  price: 300,
 
   ar: {
     name: "بيتزا فواكه البحر",
@@ -924,7 +924,7 @@ const products = [
   id: 32,
   category: "snacks",
   image: "pizza-crevettes.webp",
-  price: 230,
+  price: 250,
 
   ar: {
     name: "بيتزا الروبيان",
@@ -1031,7 +1031,7 @@ const products = [
 },
 {
   id: 66,
-  category: "dishes",
+  category: "snacks",
   image: "pizza-mixte.webp",
   price: 250,
   ar: {
@@ -1431,7 +1431,7 @@ const products = [
   id: 14,
   category: "desserts",
   image: "cheesecake.webp",
-  price: 150,
+  price: 120,
 
   ar: {
     name: "تشيز كيك (حسب الاختيار)",

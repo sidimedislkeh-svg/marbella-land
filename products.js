@@ -28,7 +28,43 @@ const products = [
 
   // ─── DRINKS / مشروبات ───────────────────────────────────────────────────────
 // ─── DRINKS / مشروبات ─────────────────────────────────────────
+{
+  id: 67,
+  category: "drinks",
+  image: "cafe-litchi-litchi.webp",
+  price: 130,
+  ar: {
+    name: "قهوة ليتشي ليتشي",
+    description: "قهوة بالحليب مع رغوة حليب كريمية"
+  },
+  fr: {
+    name: "Café Litchi Litchi",
+    description: "Café au lait avec une mousse de lait onctueuse"
+  },
+  en: {
+    name: "Litchi Litchi Coffee",
+    description: "Coffee with milk and creamy milk foam"
+  }
+},
 
+{
+  id: 68,
+  category: "drinks",
+  image: "cafe-nos-nos.webp",
+  price: 100,
+  ar: {
+    name: "قهوة نص نص",
+    description: "قهوة بنصف إسبريسو ونصف حليب"
+  },
+  fr: {
+    name: "Café Nos Nos",
+    description: "Moitié expresso, moitié lait"
+  },
+  en: {
+    name: "Nos Nos Coffee",
+    description: "Half espresso, half milk"
+  }
+},
 {
   id: 1,
   category: "drinks",
@@ -559,7 +595,7 @@ const products = [
   id: 7,
   category: "snacks",
   image: "tacos-viande.webp",
-  price: 150,
+  price: 180,
 
   ar: {
     name: "تاكوس لحم",
@@ -730,41 +766,138 @@ const products = [
   }
 },
 {
-  id: 7,
+  id: 72,
   category: "snacks",
-  image: "baguette-farcie.webp",
-  price: 230,
+  image: "pain-corne-mixte.webp",
+  price: 250,
   ar: {
-    name: "باغيت محشوة",
-    description: "متوفرة بالدجاج (230)، اللحم (230)، أو ميكس (280)"
+    name: "بان كورني ميكس",
+    description: "خبز بان كورني محشو بالدجاج واللحم والجبن"
   },
   fr: {
-    name: "Baguette Farcie",
-    description: "Disponible au poulet (230), viande (230) ou mixte (280)"
+    name: "Pain corné mixte",
+    description: "Pain corné garni de poulet, viande et fromage"
   },
   en: {
-    name: "Stuffed Baguette",
-    description: "Available with chicken (230), beef (230) or mixed (280)"
+    name: "Mixed Stuffed Bread",
+    description: "Bread stuffed with chicken, beef and cheese"
   }
 },
+
 {
-  id: 5,
+  id: 73,
   category: "snacks",
-  image: "maqloob.webp",
+  image: "maqloob-poulet.webp",
+  price: 150,
+  ar: {
+    name: "مقلوب بالدجاج",
+    description: "خبز مقلوب محشو بالدجاج والجبن"
+  },
+  fr: {
+    name: "Maqloob poulet",
+    description: "Pain maqloob garni de poulet et fromage"
+  },
+  en: {
+    name: "Chicken Maqloob",
+    description: "Folded bread stuffed with chicken and cheese"
+  }
+},
+
+{
+  id: 74,
+  category: "snacks",
+  image: "maqloob-viande.webp",
+  price: 180,
+  ar: {
+    name: "مقلوب باللحم",
+    description: "خبز مقلوب محشو باللحم والجبن"
+  },
+  fr: {
+    name: "Maqloob viande",
+    description: "Pain maqloob garni de viande et fromage"
+  },
+  en: {
+    name: "Beef Maqloob",
+    description: "Folded bread stuffed with beef and cheese"
+  }
+},
+
+{
+  id: 75,
+  category: "snacks",
+  image: "maqloob-mixte.webp",
+  price: 200,
+  ar: {
+    name: "مقلوب ميكس",
+    description: "خبز مقلوب محشو بالدجاج واللحم والجبن"
+  },
+  fr: {
+    name: "Maqloob mixte",
+    description: "Pain maqloob garni de poulet, viande et fromage"
+  },
+  en: {
+    name: "Mixed Maqloob",
+    description: "Folded bread stuffed with chicken, beef and cheese"
+  }
+},
+
+{
+  id: 69,
+  category: "snacks",
+  image: "baguette-farcie-poulet.webp",
+  price: 200,
+  ar: {
+    name: "باغيت محشوة بالدجاج",
+    description: "خبز باغيت محشو بالدجاج والجبن"
+  },
+  fr: {
+    name: "Baguette farcie au poulet",
+    description: "Baguette garnie de poulet et de fromage"
+  },
+  en: {
+    name: "Chicken Stuffed Baguette",
+    description: "Baguette stuffed with chicken and cheese"
+  }
+},
+
+{
+  id: 70,
+  category: "snacks",
+  image: "baguette-farcie-viande.webp",
   price: 220,
   ar: {
-    name: "مقلوب",
-    description: "متوفر بالدجاج (220)، اللحم (220)، أو ميكس (240)"
+    name: "باغيت محشوة باللحم",
+    description: "خبز باغيت محشو باللحم والجبن"
   },
   fr: {
-    name: "Maqloob",
-    description: "Disponible au poulet (220), viande (220) ou mixte (240)"
+    name: "Baguette farcie à la viande",
+    description: "Baguette garnie de viande et de fromage"
   },
   en: {
-    name: "Maqloob",
-    description: "Available with chicken (220), beef (220) or mixed (240)"
+    name: "Beef Stuffed Baguette",
+    description: "Baguette stuffed with beef and cheese"
   }
 },
+
+{
+  id: 71,
+  category: "snacks",
+  image: "baguette-mixte.webp",
+  price: 250,
+  ar: {
+    name: "باغيت ميكس",
+    description: "باغيت محشوة بالدجاج واللحم والجبن"
+  },
+  fr: {
+    name: "Baguette mixte",
+    description: "Baguette garnie de poulet, viande et fromage"
+  },
+  en: {
+    name: "Mixed Stuffed Baguette",
+    description: "Baguette stuffed with chicken, beef and cheese"
+  }
+},
+
 {
   id: 31,
   category: "snacks",
@@ -894,6 +1027,24 @@ const products = [
   en: {
     name: "Tuna Pizza",
     description: "Pizza with tuna, cheese, olives and bell peppers."
+  }
+},
+{
+  id: 66,
+  category: "dishes",
+  image: "pizza-mixte.webp",
+  price: 250,
+  ar: {
+    name: "بيتزا مشكلة",
+    description: "بيتزا متنوعة بمزيج من اللحوم والخضروات والجبن"
+  },
+  fr: {
+    name: "Pizza Mixte",
+    description: "Pizza garnie d'un mélange de viandes, légumes et fromage"
+  },
+  en: {
+    name: "Mixed Pizza",
+    description: "Pizza topped with a mix of meats, vegetables and cheese"
   }
 },
 
